@@ -1,0 +1,11 @@
+@font-face {
+    font-family: normalFont;
+    src: url(fonts\MarketFreshAllCaps-GgvD.ttf);
+ }
+ 
+ @font-face {
+    font-family: normalFont;
+    src: url(fonts\MarketFreshBoldAllCaps-zo0D.ttf);
+    font-weight: bold;
+ }
+ 

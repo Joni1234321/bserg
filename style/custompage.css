@@ -1,0 +1,14 @@
+.demo>input {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #c77700;
+    padding: 0;
+}
+.demo>input:hover {
+    cursor: pointer;
+} 
+
+#schematic {
+    width: 50%;
+}

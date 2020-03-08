@@ -1,0 +1,111 @@
+body {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+a {
+    text-decoration: none; /* no underline */
+    color: black;
+    outline: none; /* Works in Firefox, Chrome, IE8 and above */ 
+
+}
+
+
+#web {
+    height: calc(100vh);
+	display: grid;
+    grid-template-columns: 180px auto;
+    /*background-color: #9ba1d3;*/
+    background-color: #fcfcfc;
+
+}
+
+
+/* CONTENT NAVIGATION */
+#navbar {
+    border-right: solid #a84444 4px;
+    height: 100%;
+    /*background-color: #e08989;*/
+    background-color: #ffe1bb;   
+}
+
+
+#projects:hover  {
+    background-color: #c48c8c;
+}
+#aboutme:hover {
+    background-color: #af9a9a;
+}
+
+.navtitle {
+    font-size: 25px;
+    padding: 5px;
+    border-bottom: solid black 1px;
+    font-weight: bold;
+    
+}
+.navtitle p {
+    margin: 0;
+}
+
+#projects a div:hover {
+    background-color: #b95858;
+}
+#aboutme a div:hover {
+    background-color: #836a6a;
+}
+
+
+
+.navproject {
+    padding: 5px 0px;
+    border-bottom: solid black 1px;
+}
+.navproject * {
+    display: block;
+    width: auto;
+    left: 10px;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+
+.navproject {
+    margin: 0;
+}
+
+/* CONTENT MAIN*/
+#maincontent {
+    display: grid;
+    grid-template-rows: 44px auto;
+    margin: 0;
+    padding: 0px 20px;  
+    text-align: center;
+    overflow: hidden;
+}
+
+#mainbread {
+    height: 100%;
+    overflow:  auto;
+}
+#maintitle {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid rgb(31, 52, 146) 2px;   
+}
+#maintitle:hover {
+    background-color: #9499c7;
+}
+#maintitle p {
+    margin: 0;
+    padding: 10px 0px;
+}
+
+#profilepicture {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 500px;
+    padding: 5px;
+    border-radius: 7%;
+}

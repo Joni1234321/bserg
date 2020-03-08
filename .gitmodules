@@ -1,0 +1,3 @@
+[submodule "websites/MyWeb"]
+	path = websites/MyWeb
+	url = https://github.com/Joni1234321/myweb

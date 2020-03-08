@@ -1,0 +1,75 @@
+.page.container {
+    display: grid;
+    grid-template-columns: auto minmax(auto, 400px);
+    overflow: hidden;
+    height: 100%;
+}
+.page.container>div {
+    width:100%;
+}
+
+.page.img>p {
+    font-style: italic;
+    color: #6f6f6f;
+}
+
+.page.content {
+    grid-column: 1;
+    grid-row: 1;
+    overflow: hidden auto;
+}
+.meta-page {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #ebebeb;
+    border: 2px solid #cfcfcf;
+    margin-right: 10px;
+}
+
+
+.meta.version {
+    float: left;
+    background-color:#e3e3e3;
+    width: 30%;
+}
+.meta.version>p {
+    margin: 0;
+}
+.meta.git {
+    float: right;
+    background-color:#e3e3e3;
+    width: 30%;
+}
+
+.meta.title>p {
+    color: #323232;
+    border-bottom: #cfcfcf solid 2px;
+    margin: 40px 10px 5px 10px;
+} 
+.meta.tags>p{
+    display: inline;
+    margin-inline: 0px 10px;
+}
+.meta.img {
+    max-width:90%;
+    max-height: 50%;
+    margin: 20px 0px;
+}
+.resources>div {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.pdf {
+
+    background-image: url(icons/icons.png);
+    background-repeat: no-repeat;
+    background-position: 19.852% 85.602%; ;
+    background-size: calc(1280px / 3) calc(640px / 3);
+    width: calc(200px / 3);
+    height: calc(258px / 3);
+    /*img res is 1280 px 640 px*/ 
+    /* Therefore to scale down*/
+
+
+}
