@@ -1,3 +1,6 @@
 [submodule "websites/MyWeb"]
 	path = websites/MyWeb
 	url = https://github.com/Joni1234321/myweb
+[submodule "websites\\MacroElectron"]
+	path = websites\\MacroElectron
+	url = https://github.com/Joni1234321/refresher
