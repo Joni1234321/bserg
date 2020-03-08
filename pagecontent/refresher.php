@@ -2,7 +2,7 @@
     require_once("template_classes/template_page.php");
 
 
-    $t = new TEMPLATE_PAGE ("1.0", "REFRESHER", "Completed", "img/projects/refresher.png", array("Website"));
+    $t = new TEMPLATE_PAGE ("1.0", "REFRESHER", "Completed", "img/projects/refresher.png", array("Website"),  array(""), "https://github.com/Joni1234321/robotarmprojekt");
     $t->create_demo("websites/MacroElectron/index.html");
     $t->create_p("Purpose: Displaying 5 elements");
     $t->create_p("By writing in the field, you can add an element to the list");
