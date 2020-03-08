@@ -14,6 +14,9 @@
         public function create_p($t) {
             echo '<p> ' . $t . '</p>';
         }
+        public function create_a($t, $href) {
+            echo '<a target="_blank" href="' . $href . '"> ' . $t . '</a>';
+        }
         public function create_demo($link = "index.php"){
             echo '
             <form class="demo" target="_blank" action="' . $link . '">

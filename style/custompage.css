@@ -12,3 +12,7 @@
 #schematic {
     width: 50%;
 }
+
+.page.content a {
+    text-decoration: underline;
+}
