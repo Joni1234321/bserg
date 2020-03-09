@@ -4,3 +4,6 @@
 [submodule "websites/MacroElectron"]
 	path = websites/MacroElectron
 	url = https://github.com/Joni1234321/refresher
+[submodule "shell"]
+	path = shell
+	url = https://github.com/Joni1234321/shell_version
